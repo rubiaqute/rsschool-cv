@@ -48,6 +48,7 @@ int main(void)
 ```
 ### Courses:
 * free programming courses from https://gb.ru/
+![image](https://user-images.githubusercontent.com/79940827/132141547-9d009852-6ac7-4dab-bb0d-e7e4dd8cafb8.png)
 * CS50 Harvard (in progress, on pause temporarily)
 * RS Schools Course «JavaScript/Front-end» (in progress)
 
