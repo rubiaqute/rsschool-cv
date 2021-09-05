@@ -7,7 +7,7 @@
 * Telegram: @rubiaqute
 
 ### About me:
-Being graduated from Russian Customs Academy in 2011 with honor I started my career in a big international logistic company. I passed the way from Intern in customs department to Senior Customs Specialist. Sufficient part of my work was to collect and transform information from big data bases. I tried to do it the most productive way and finally began creating VBA macros instruments. Some my macroses are still used by my colleges till now. That was the moment I realized how I would want to procede with my career. Finally, after collecting all the information about programming spheres, I decided to become Frontend Developer
+Being graduated from Russian Customs Academy in 2011 with honor I started my career in a big international logistic company. I passed the way from Intern in customs department to Senior Customs Specialist. Sufficient part of my work was to collect and transform information from big databases. I tried to do it the most productive way and finally began creating VBA macro instruments. Some of my macro tools are still used by my colleges till now. That was the moment I realized how I would want to proceed with my career. Finally, after collecting all the information about programming spheres, I decided to become Frontend Developer
 
 My **key** advantages: 
 * full of enthusiasm in making and meeting goals
