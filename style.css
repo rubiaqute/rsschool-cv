@@ -1,0 +1,120 @@
+body {
+    line-height: 1.5;
+    
+    background-color: #111;
+    width: 1024px;
+    margin: auto;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #f5f7f5ec;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.main {
+    width: 70%;
+}
+.aside {
+    background-color: #18242ca2;
+}
+.aside-photo{
+    padding: 20px;
+    text-align: center;   
+}
+.aside-photo img {  
+    border-radius: 50%; 
+}
+h1 {
+    font-size: 26;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f7bb83ec;
+    padding: 0px 10px;
+    margin: 0px;
+}
+h2 {
+    font-size: 18;
+    text-align: center;
+    color: #f7bb83ec;
+    padding: 0px 10px;
+    margin:0px 0px 40px 0px;
+    
+}
+.contacts{
+        color: #fff;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+    }
+.skills{
+        color: #fff;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+    }
+.divider-orange{
+    display: block;
+    height: 2px;
+    background-color: #f7bb83ec;
+    }
+.about-me{
+    color: #111;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+}
+.about-me h3{
+    width: 120px;
+    padding: 5px 20px;
+    background-color: #f7bb83ec
+}
+.education{
+    color: #111;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+}
+.education h3{
+    width: 120px;
+    padding: 5px 20px;
+    background-color: #f7bb83ec
+}
+.languages{
+    color: #111;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+}
+.languages h3{
+    width: 120px;
+    padding: 5px 20px;
+    background-color: #f7bb83ec
+}
+.code-example{
+    color: #111;
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: 800;
+    padding: 0 0 0 30px;
+}
+.code-example h3{
+    width: 120px;
+    padding: 5px 20px;
+    background-color: #f7bb83ec
+}
+
+.divider-black{
+    display: block;
+    height: 2px;
+    background-color: #18242ca2;
+}
+.footer {
+    
+}

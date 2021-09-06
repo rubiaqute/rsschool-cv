@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inga Baranets</title>
+    <link rel=stylesheet type="text/css" href="style.css">
 </head>
 
 <body>
@@ -12,6 +13,7 @@
         <div class = "main">
             <div class = "about-me">
                 <h3>About me:</h3>
+                <div class="divider-black"></div>
                 <p>Being graduated from Russian Customs Academy in 2011 with honor I started my career in a big international logistic company. I passed the way from Intern in customs department to Senior Customs Specialist.
                 Sufficient part of my work was to collect and transform information from big databases. I tried to do it the most productive way and finally began creating VBA macro instruments. Some of my macro tools are still used by my colleges till now. 
                 That was the moment I realized how I would want to proceed with my career. Finally, after collecting all the information about programming spheres, I decided to become Frontend Developer</p>
@@ -27,6 +29,7 @@
             </div>
             <div class = "education">
                 <h3>Education:</h3>
+                <div class="divider-black"></div>
                 <p style="font-weight:bold;">2006 - 2011 Russian Customs Academy</p>
                 <p>Faculty: World Economy </p>
                 <p>Specialization: Foreign Trade</p>
@@ -35,6 +38,7 @@
             
             <div class ="languages">
                 <h3>Languages:</h3>
+                <div class="divider-black"></div>
                 <ul>
                     <li>English - Upper-Intermediate</li>
                     <li>Spanish - Intermediate</li> 
@@ -43,21 +47,47 @@
             </div>
             <div class = "code-example">
                 <h3>Code example:</h3>
-                <p>Task "Cash" from CS50 course (TODO link)</p>
+                <div class="divider-black"></div>
+                <p>Task <a href="https://cs50.harvard.edu/college/2020/fall/psets/1/cash/">"Cash"</a> from CS50 Harvard course </p>
+                <pre>
+                    <code>
+                    int main(void)
+                    {
+                      int counter =0;
+                      float change;
+                      do
+                        {
+                        change = get_float("Change owed: \n");
+                        }
+                      while (change > 0);
+                      int cents = round(change * 100);
+                      counter = round(cents / 25);
+                      cents = cents % 25;
+                      counter =counter +round(cents/10);
+                      cents = cents % 10;
+                      counter =counter +round(cents/5);
+                      cents = cents % 5;
+                      counter = counter +cents;
+                      printf("%i\n", counter);
+                    }
+                    </code>
+            </pre>
 
             </div>
 
         </div>
 
         <div class = "aside">
-            <div class ="aside-header">
-                <img src="" alt="">
+            <div class ="aside-photo">
+                <img src="IMG_20210712_203840_2(1).jpg" alt="photo"   >
+            </div>
                 <h1>Inga Baranets</h1>
                 <h2>Front-End Developer</h2>
 
-            </div>
+            
             <div class = "contacts">
                 <h3>Contact information:</h3>
+                <div class="divider-orange"></div>
                 <ul>
                     <li>Location: Moscow, Russia</li>
                     <li>Tel.: +79104363927</li>
@@ -67,24 +97,19 @@
             </div>
             <div class ="skills">
                 <h3>Skills:</h3>
+                <div class="divider-orange"></div>
                 <ul>
                     <li>HTML, CSS</li>
                     <li>JavaScript (Basic)</li>
                     <li>Photoshop</li>
                     <li>VBA (Basic)</li>
                     <li>C (Basic)</li>
-                
-            </div>
-
+                </ul>
+            </div>               
         </div>
-        <div class = "footer">
-            <p>TODO Github link, icon</p>
-
-        </div>
-
-
-
-
+    </div>
+    <div class = "footer">
+        <p>TODO Github link, icon</p>
     </div>
 </body>
 </html>
