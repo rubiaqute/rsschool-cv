@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inga Baranets</title>
+    <link rel=stylesheet type="text/css" href="style.css">   
+    <link rel="stylesheet" href="../rsschool-cv/default.min.css">
+    <script src="../rsschool-cv/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <div class="container">
+        <div class = "main">
+            <div class = "about-me">
+                <h3>About me:</h3>
+                <div class="divider-black"></div>
+                <p>Being graduated from Russian Customs Academy in 2011 with honor I started my career in a big international logistic company. I passed the way from Intern in customs department to Senior Customs Specialist.
+                Sufficient part of my work was to collect and transform information from big databases. I tried to do it the most productive way and finally began creating VBA macro instruments. Some of my macro tools are still used by my colleges till now. 
+                That was the moment I realized how I would want to proceed with my career. Finally, after collecting all the information about programming spheres, I decided to become Frontend Developer</p>
+                <p>My key advantages:</p>
+                <ul>
+                    <li>full of enthusiasm in making and meeting goals</li>
+                    <li>good listener and quick learner</li>
+                    <li>good practice in English</li>
+                    <li>high level of responsibility</li>
+                </ul>
+            
+
+            </div>
+            <div class = "education">
+                <h3>Education:</h3>
+                <div class="divider-black"></div>
+                <p style="font-weight:bold;">2006 - 2011 Russian Customs Academy</p>
+                <p>Faculty: World Economy </p>
+                <p>Specialization: Foreign Trade</p>
+              
+            </div>
+            
+            <div class ="languages">
+                <h3>Languages:</h3>
+                <div class="divider-black"></div>
+                <ul>
+                    <li>English - Upper-Intermediate</li>
+                    <li>Spanish - Intermediate</li> 
+                    <li>German - Basic</li>
+                </ul>
+            </div>
+            <div class = "code-example">
+                <h3>Code example:</h3>
+                <div class="divider-black"></div>
+                <p>Task <a href="https://cs50.harvard.edu/college/2020/fall/psets/1/cash/">"Cash"</a> from CS50 Harvard course </p>
+                <pre>
+                    <code class = "C">
+                    int main(void)
+                    {
+                      int counter =0;
+                      float change;
+                      do
+                        {
+                        change = get_float("Change owed: \n");
+                        }
+                      while (change > 0);
+                      int cents = round(change * 100);
+                      counter = round(cents / 25);
+                      cents = cents % 25;
+                      counter =counter +round(cents/10);
+                      cents = cents % 10;
+                      counter =counter +round(cents/5);
+                      cents = cents % 5;
+                      counter = counter +cents;
+                      printf("%i\n", counter);
+                    }
+                    </code>
+            </pre>
+
+            </div>
+
+        </div>
+
+        <div class = "aside">
+            <div class ="aside-photo">
+                <img src="IMG_20210712_203840_2(1).jpg" alt="photo">
+            </div>
+                <h1>Inga Baranets</h1>
+                <h2>Front-End Developer</h2>
+
+            
+            <div class = "contacts">
+                <h3>Contact information:</h3>
+                <div class="divider-orange"></div>
+                <ul>
+                    <li>Location: Moscow, Russia</li>
+                    <li>Tel.: +79104363927</li>
+                    <li>E-mail: rubiaqute@gmail.com</li>
+                    <li>Telegram: @rubiaqute</li>
+                </ul>
+            </div>
+            <div class ="skills">
+                <h3>Skills:</h3>
+                <div class="divider-orange"></div>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Photoshop</li>
+                    <li>VBA (Basic)</li>
+                    <li>C (Basic)</li>
+                </ul>
+            </div>               
+        </div>
+    </div>
+    <div class = "footer">
+        <p>2021</p>
+        <a href="https://rs.school/js/" class="course-link">Course «JavaScript/Front-end»</a>
+        <img src="../rsschool-cv/rs_school_js.svg" alt="school-icon" class="school-icon">
+        <a href="https://github.com/rubiaqute" class="githublink">Visit my Github</a>
+    </div>
+</body>
+</html>
