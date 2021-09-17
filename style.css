@@ -4,6 +4,7 @@
 body {
     background-color: #f5f7f5ec; 
     scroll-behavior: smooth;
+    
 }
 .container {
     line-height: 1.5;
@@ -14,13 +15,29 @@ body {
     box-sizing: border-box;
 }
  
-
 .nav{
-    display: flex;
-    justify-content: right; 
+    width:100%;
+    background: #f7bb83ec;
+    position: sticky;
+    top: 0;
 }
-.nav :hover{
-    background-color: #f8973cec;
+.hamburger-list{
+    display: flex;
+}
+.hamburger-list a{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #111;
+}
+
+.nav label {
+    display: none;
+}
+#hamburger{
+    display: none;
 }
 
 .list-menu{
@@ -30,14 +47,11 @@ body {
     border:1px solid #f8973cec;
     
 }
-.list-menu a{
-    text-decoration: none;
-    color:#111;
-}
-.list-menu :hover{
-    
+.list-menu:hover{
+    background: #f8973cec;
     text-decoration: underline;
 }
+
 .main{
     display:flex;
 }
@@ -173,4 +187,23 @@ h2 {
     .h4, h3{
         font-size: 14px;
     }
+    .hamburger-list a{
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        
+    }
+    .nav label{
+        display: inline-block;
+        padding:10px;
+        font-size: 1.2em;
+        
+    }
+    .nav label:hover{
+        background-color: #f8973cec;
+    }
+    .hamburger-list {
+        display: none;
+    }
+    .nav input:checked ~ .hamburger-list{display: block;}
 }
